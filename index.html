@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="imgInicial">
+            <img src="./img/imgCadastroInicial.jpg">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="btn-login">
+                        <a href="#" class="login-button">Entrar</a>
+                    </div>
+                </div>
+                <div class="input-conteiner">
+                    <div class="input">
+                        <label for="name">Primeiro nome</label><br>
+                        <input id="name" type="text" name="primeironome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="input">
+                        <label for="lastname">Sobrenome</label><br>
+                        <input id="lastname" type="text" name="sobrenome" placeholder="Digite seu sobrenome" required>
+                    </div>
+                    <div class="input">
+                        <label for="datepicker">Data de nascimento</label><br>
+                        <input id="datepicker" type="text" name="datanascimento" placeholder="Escolha a data" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">E-mail</label><br>
+                        <input id="email" type="text" name="mailadress" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="input">
+                        <label for="confirmemail">E-mail</label><br>
+                        <input id="confirmemail" type="text" name="confirmmailadress" placeholder="Confirme seu e-mail" required>
+                    </div>
+                    <div class="input">
+                        <label for="numberphone">Celular</label><br>
+                        <input id="numberphone" type="cel" name="number" placeholder="(XX) XXXXX-XXXX" required>
+                    </div>
+                    <div class="input">
+                        <label for="senha">Senha</label><br>
+                        <input id="senha" type="password" name="senha" placeholder="Digite uma senha" required>
+                    </div>
+                    <div class= "input">
+                        <label for="confirmsenha">Confirmar senha</label><br>
+                        <input id="confirmsenha" type="password" name="confirmsenha" placeholder="Confirme sua senha" required>
+                    </div>
+                    <div class="btn-send">
+                        <a href="#" class="custom-button">Enviar</a>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
