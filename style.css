@@ -103,12 +103,14 @@ body {
 .btn-send {
     text-align: center;
     padding-top: 15px;
+
   }
   
   /* Estilos para o botão personalizado */
   .custom-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 30px;
+    margin-left: 120px;
     background-color: #007bff;
     color: #fff;
     text-decoration: none; /* Remove a decoração de texto / "Enviar" sublinhado */
